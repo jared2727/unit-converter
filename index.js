@@ -11,6 +11,7 @@ const bodyEl = document.querySelector("body")
 const titleEl = document.querySelectorAll(".title")
 const h4El = document.querySelectorAll("h4")
 const pEl = document.querySelectorAll("p")
+const mainsectionEl = document.querySelector("#main-section")
 const darkBtn = document.querySelector("#dark-btn")
 const moonIcon = document.querySelector("#moon-icon")
 let userInput = ""
@@ -121,6 +122,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         pEl.forEach(el => el.classList.toggle("dark"))
         bodyEl.classList.toggle("dark")
         resultsEl.classList.toggle("dark")
+        mainsectionEl.classList.toggle("dark")
         }
 
     // darkMode()
