@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <body class="dark">
+        <section id="main-section">
+            <div id="top-section">
+                    <svg id="moon-icon" class="svg" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"/>
+                    </svg>
+                <h1 id="header-text">Metric/Imperial Unit Conversion</h1>
+                <input id="input" type="number" min="1" max="10" value="1">
+                <input id="slider" type="range" min="0" max="99" value="1">
+                <div id="btn-div">
+                    <button id="convert-btn" autofocus>
+                        Convert
+                    </button>
+                    <!-- <button id="reset-btn">
+                        Reset
+                    </button> -->
+                </div>
+            </div>
+            <div class="results dark">
+                <div id="len-el" class="title dark">
+                </div>
+                <div id="vol-el" class="title dark">
+                </div>
+                <div id="mass-el" class="title dark">
+                </div>
+            </div>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>
